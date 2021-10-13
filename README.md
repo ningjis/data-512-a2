@@ -39,14 +39,27 @@ In this project, we are using ORES client, which is licensed under the MIT licen
 # Curated Data
 
 The processed data are stored into a single CSV file, `wp_wpds_politicians_by_country.csv`, with the following headers:
-*  country
-*  article_name
-*  revision_id
-*  article_quality_est.
-*  population
+| Column | Description |
+|--------|-------------|
+| country | Name of the country |
+| article_name | Name of the article |
+| revision_id | Revision ID of the article on Wikipedia |
+| article_quality | Quality class as determined by ORES |
+| Population | Population of the country |
 
-Please see the data cleaning process in the notebook `hcds-a2-bias.ipynb`.
+For the analysis and results, the following headers were used:
 
+| Column | Description |
+|--------|-------------|
+| country/Region | Name of the country/region |
+| bad-articles | Number of non-FA and non-GA class articles |
+| good-articles | Number of FA or GA class articles |
+| Total-articles| Total number of articles for the corresponding country/region; equals to bad-articles+good-articles |
+| quality rate | The relative proportion of politician articles that are of GA and FA-quality |
+| Coverage | Percentage of politician articles as a proportion of country population |
+| Population | Population of the country |
+
+Please see the data cleaning and analysis process in the notebook `hcds-a2-bias.ipynb`.
 
 # Reflections and Implications
 Please see the notebook `hcds-a2-bias.ipynb`.
