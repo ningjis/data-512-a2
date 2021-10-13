@@ -8,7 +8,7 @@ The goal of this assignment is to explore the concept of bias through data on Wi
 
 
 # APIs
-The source datasets of this project:
+The source datasets of this project are: 
 1.  Politicians by Country from the English-language Wikipedia(Keyes, Os, 2017):  Figshare.  
 *  Licensed under the CC-BY-SA 4.0 licenses
 *  Privacy policy & Terms of use: https://doi.org/10.6084/m9.figshare.5513449.v6 
@@ -48,3 +48,5 @@ The processed data are stored into a single CSV file, `wp_wpds_politicians_by_co
 Please see the data cleaning process in the notebook `hcds-a2-bias.ipynb`.
 
 
+# Reflections and Implications
+Please see the notebook `hcds-a2-bias.ipynb`.
